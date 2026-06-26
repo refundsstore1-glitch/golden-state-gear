@@ -1,0 +1,22 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Inter,sans-serif;background:#f6f4ef;color:#111}
+nav{position:fixed;top:0;left:0;width:100%;display:flex;justify-content:space-between;align-items:center;padding:24px 48px;z-index:10;background:linear-gradient(to bottom,rgba(0,0,0,.55),transparent)}
+.brand{font-family:'Bebas Neue';font-size:2rem;color:#fff;letter-spacing:2px}
+.links a{color:#fff;text-decoration:none;margin-left:24px}
+.hero{height:100vh;background:url('images/hero.png') center/cover no-repeat;display:flex;align-items:center}
+.overlay{background:rgba(0,0,0,.35);width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;padding-left:10%;color:#fff}
+.overlay h1{font-family:'Bebas Neue';font-size:6rem;letter-spacing:3px}
+.overlay p{font-size:1.2rem;margin-top:10px}
+.banner{height:90vh;background:url('images/banner.png') center/cover no-repeat}
+footer{padding:50px 20px;text-align:center}
+footer a{text-decoration:none;color:#111;margin:0 12px}
+footer p{margin-top:18px;color:#666}
+.page{max-width:900px;margin:120px auto;padding:20px}
+.page h1{font-family:'Bebas Neue';font-size:3rem;margin-bottom:20px}
+@media(max-width:768px){
+nav{padding:18px}
+.links a{margin-left:12px;font-size:.9rem}
+.overlay{padding:30px}
+.overlay h1{font-size:3.5rem}
+.banner{height:60vh}
+}
